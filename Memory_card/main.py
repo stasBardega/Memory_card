@@ -29,14 +29,17 @@ class Question():
         self.attempts += 1
 
 # питання
-q1 = Question('Мама', 'mother', 'mama', 'mamy', 'momy')
-q2 = Question('Дім', 'house', 'horse', 'hurry', 'hour')
-q3 = Question('Мишка', 'mouse', 'mouth', 'muse', 'museum')
-q4 = Question('Число', 'number', 'digit', 'amount', 'summary')
+q1 = Question('5x5', '25', '36', '35', '24')
+q2 = Question('15x10', '150', '260', '1.5', '1500')
+q3 = Question('87-19', '68', '78', '69', '72')
+q4 = Question('34+297', '331', '329', '312', '321')
+q5 = Question('567x2', '1134', '1231', '987', '1156')
+q6 = Question('214-178', '32', '34', '52', '24')
+q7 = Question('342:3', '114', '112', '111', '152')
 
 # список з перемикачів кнопок та питань
 radio_list = [rbtn_1, rbtn_2, rbtn_3, rbtn_4]
-questions = [q1, q2, q3, q4]
+questions = [q1, q2, q3, q4, q5, q6, q7]
 
 #                                         (функція що обирає випадкове запитання зі списку та показує його на екрані)
 def new_question():
